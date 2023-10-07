@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From tomcat:9-jre8 
 
 # Maintainer 
-MAINTAINER "ajitseenu409@gmail.com" 
-COPY ./project-1-cicd-for-webapp.war /usr/local/tomcat/webapps
+MAINTAINER "yogiyash12345678@gmail.com" 
+COPY ./cicd-for-webapp.war /usr/local/tomcat/webapps
